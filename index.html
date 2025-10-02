@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>UW-Madison Bar Deals</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      color: #333;
+    }
+    header {
+      background: #b70101;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      background: #eee;
+    }
+    nav li {
+      margin: 0 15px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #b70101;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 20px;
+      text-align: center;
+    }
+    .map-container {
+      height: 450px;
+      margin: 20px auto;
+      max-width: 900px;
+    }
+    .map-container iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: #f4f4f4;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>UW-Madison Bar Deals</h1>
+    <p>Find daily drink specials around campus 🍺</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="monday.html">Monday</a></li>
+      <li><a href="tuesday.html">Tuesday</a></li>
+      <li><a href="wednesday.html">Wednesday</a></li>
+      <li><a href="thursday.html">Thursday</a></li>
+      <li><a href="friday.html">Friday</a></li>
+      <li><a href="saturday.html">Saturday</a></li>
+      <li><a href="sunday.html">Sunday</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h2>Explore Madison’s Bar Scene</h2>
+    <p>Select a day above to see all of the bar deals happening that night. Check out the map below to find your favorite bar!</p>
+
+    <!-- Google My Maps Embed -->
+    <div class="map-container">
+      <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1auF4OA00VSwv7aEPzuR_-codNK81iaE&ehbc=2E312F"></iframe>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 UW Bar Deals</p>
+  </footer>
+
+</body>
+</html>
